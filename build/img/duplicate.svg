@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  >
+    
+    <title>duplicate</title>
+
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"  >
+        <path d="M0,10.8571286 L3.99999475,10.8571286 L3.99999475,3.99999475 L10.8571286,3.99999475 L10.8571286,0 L0,0 L0,10.8571286 Z M15.999979,5.1428504 L5.1428504,5.1428504 L5.1428504,15.999979 L15.999979,15.999979 L15.999979,5.1428504 Z" id="Type-something" fill="#777D93"  ></path>
+    </g>
+</svg>

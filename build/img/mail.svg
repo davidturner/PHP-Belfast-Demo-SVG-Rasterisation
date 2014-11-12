@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="12px" height="9px" viewBox="0 0 12 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  >
+    <title>mail</title>
+    
+    <defs>
+        <filter x="-20%" y="-20%" width="140%" height="140%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.7 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"  >
+        <path d="M12,0.75 L6,5.25 L0,0.75 C0,0.546295278 0.0740733333,0.370371111 0.222222222,0.222222222 C0.370371111,0.0740733333 0.546295278,0 0.75,0 L11.25,0 C11.4537047,0 11.6296289,0.0740733333 11.7777778,0.222222222 C11.9259267,0.370371111 12,0.546295278 12,0.75 Z M0,2.09722222 L6,6.59722222 L12,2.09722222 L12,8.25 C12,8.45370472 11.9259267,8.62962889 11.7777778,8.77777778 C11.6296289,8.92592667 11.4537047,9 11.25,9 L0.75,9 C0.546295278,9 0.370371111,8.92592667 0.222222222,8.77777778 C0.0740733333,8.62962889 0,8.45370472 0,8.25 L0,2.09722222 Z" id="EMAIL" fill="#585D68" filter="url(#filter-1)"  ></path>
+    </g>
+</svg>

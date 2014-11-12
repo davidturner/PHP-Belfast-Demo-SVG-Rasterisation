@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  >
+    <title>plus</title>
+    
+    <defs>
+        <filter x="-20%" y="-20%" width="140%" height="140%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.7 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"  >
+        <path d="M7.64583333,11 L5.35416667,11 C5.28626509,11 5.23109589,10.9787811 5.18865741,10.9363426 C5.14621892,10.8939041 5.125,10.8387349 5.125,10.7708333 L5.125,6.875 L1.22916667,6.875 C1.16126509,6.875 1.10609589,6.85378108 1.06365741,6.81134259 C1.02121892,6.76890411 1,6.71373491 1,6.64583333 L1,4.35416667 C1,4.28626509 1.02121892,4.23109589 1.06365741,4.18865741 C1.10609589,4.14621892 1.16126509,4.125 1.22916667,4.125 L5.125,4.125 L5.125,0.229166667 C5.125,0.161265093 5.14621892,0.106095891 5.18865741,0.0636574074 C5.23109589,0.0212189236 5.28626509,0 5.35416667,0 L7.64583333,0 C7.71373491,0 7.76890411,0.0212189236 7.81134259,0.0636574074 C7.85378108,0.106095891 7.875,0.161265093 7.875,0.229166667 L7.875,4.125 L11.7708333,4.125 C11.8387349,4.125 11.8939041,4.14621892 11.9363426,4.18865741 C11.9787811,4.23109589 12,4.28626509 12,4.35416667 L12,6.64583333 C12,6.71373491 11.9787811,6.76890411 11.9363426,6.81134259 C11.8939041,6.85378108 11.8387349,6.875 11.7708333,6.875 L7.875,6.875 L7.875,10.7708333 C7.875,10.8387349 7.85378108,10.8939041 7.81134259,10.9363426 C7.76890411,10.9787811 7.71373491,11 7.64583333,11 L7.64583333,11 Z" id="ADD" fill="#FFFFFF" filter="url(#filter-1)"  ></path>
+    </g>
+</svg>
